@@ -4,9 +4,9 @@
 					<!-- default heading -->
 					<div class="default-heading">
 						<!-- heading -->
-						<h2>Peça um orçamento já !</h2>
+						<h2>Peça um orçamento já </h2>
 						<!-- paragraph -->
-						<p>Respoderemos com a melhor agilidade e melhor preço.</p>
+						<span>Respoderemos com a maior agilidade e o melhor preço.</span>
 					</div>
 					<!-- contact container -->
 					<div class="contact-container">	
@@ -66,7 +66,7 @@
 								<p class="address"><a href="#">JPSerralheriasbo@gmail.com</a></p>
 							</div>
 							<div class="col-md-4">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.757418429999!2d-47.4056691494194!3d-22.77438208500608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89e826dedc877%3A0xb7bfda1f1335d896!2sEstr.%20Barreirinho%2C%202112%20-%20Jardim%20Santa%20Alice%2C%20Santa%20B%C3%A1rbara%20d&#39;Oeste%20-%20SP%2C%2013458-571!5e0!3m2!1spt-BR!2sbr!4v1592243858247!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.757418429999!2d-47.4056691494194!3d-22.77438208500608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89e826dedc877%3A0xb7bfda1f1335d896!2sEstr.%20Barreirinho%2C%202112%20-%20Jardim%20Santa%20Alice%2C%20Santa%20B%C3%A1rbara%20d&#39;Oeste%20-%20SP%2C%2013458-571!5e0!3m2!1spt-BR!2sbr!4v1592243858247!5m2!1spt-BR!2sbr" width="330vh" height="330vh" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 							</div>
 						</div>
 					</div>

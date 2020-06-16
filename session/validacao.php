@@ -26,7 +26,5 @@
 
     $conexao->close(); 
 
-    echo $resultado->num_rows;
-
 
   

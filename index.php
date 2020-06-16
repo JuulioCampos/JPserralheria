@@ -25,19 +25,11 @@
 	<body>
 	
 		<div class="wrapper">
-		
 			<!-- header -->
 			<?php include_once 'navbar.html';?>
-			
-			<!-- banner -->
-			<div class="banner">
-				<div class="container">
-					<!-- heading -->
-					<h2>Nós temos o melhor serviço</h2>
-					<!-- sub heading -->
-					<h3>Com o melhor preço</h3>
-					<!-- access button -->
-					<a href="#" class="btn btn-default">Veja nossos trabalhos</a>
+			<div class="container-carrossel">
+				<div class="container carrossel">
+					<?php require_once 'carrossel.php';?>
 				</div>
 			</div>
 			<!-- banner end -->

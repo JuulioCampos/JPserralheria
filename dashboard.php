@@ -17,6 +17,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="dashboard.php?page=cadastrar">Cadastrar nova imagem</a>
         <a href="dashboard.php?page=gerenciar">Gerenciar imagens</a>
+        <a href="dashboard.php?page=carrossel">Gerenciar carrossel</a>
         <a href="index.php">Voltar para o site</a>
         <a href="session/logout.php">Sair</a>
     </div>
@@ -48,6 +49,12 @@
                     echo "
                     <div class='embed-responsive embed-responsive-21by9'>
                         <iframe class='embed-responsive-item' src='gerenciar.php'></iframe>
+                    </div>
+                ";
+                }elseif(isset($_GET['page']) && $_GET['page'] == 'carrossel'){
+                    echo "
+                    <div class='embed-responsive embed-responsive-21by9'>
+                        <iframe class='embed-responsive-item' src='cadastrar-carrossel.php'></iframe>
                     </div>
                 ";
                 }else{
