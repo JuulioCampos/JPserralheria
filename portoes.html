@@ -1,0 +1,37 @@
+<?php 
+require_once 'session/conexao.php';
+
+$conexao = novaConexao();
+
+$sql = "SELECT id, titulo, descricao, imagem FROM portao WHERE id ORDER BY id ASC LIMIT 4"; 
+
+
+$resultado = $conexao->query($sql);
+
+$portoes = [];
+
+if($resultado->num_rows > 0 ){
+    while($row = $resultado->fetch_assoc()){
+        $portoes[] = $row;
+    }
+}else if($conexao->error){
+    echo 'Falha: '. $conexao->error;
+}
+$conexao->close();
+?>
+
+<div class="row">
+    <?php foreach($portoes as $portao):?>
+    <div class="col-md-3">
+        <!-- work item -->
+        <div class="work-item image ">
+            <!-- work details image -->
+            <a href="img/portoes/<?= $portao['imagem'];?>"><img class="img-responsive miniaturas" src="img/portoes/<?= $portao['imagem'];?>" alt="<?= $portao['titulo']?>"></a>
+            
+        </div>
+    </div>
+    <?php endforeach ?>
+</div>
+<div class="mais-portoes">
+ <center><a href="lista-portoes.php"><span class="clique-aqui">Clique aqui</span> </a><span> ver nossa galeria de portões</span></center>
+</div>
